@@ -1,0 +1,65 @@
+
+.required {
+    color: red;
+  }
+  .survey{
+    display: grid;
+    gap:0.5rem;
+   justify-content: center;
+   font-size: small;
+   
+   }
+th{
+    font-weight: normal;
+    align-items: center;
+}
+
+td{
+  text-align: center;
+  word-wrap:break-word;
+  width: 130px;
+  padding: 2px;
+  margin: 1px;
+  
+}
+.td_cls{
+  text-align: left;
+}
+
+  
+.namebox{
+  display: flex;
+  gap: 2%;
+}
+.label-cls{
+  display: flex;
+  gap: 18.2%;
+  
+  
+}
+#email{
+  width: 350px;
+  
+}
+
+.satisfy{
+  display: grid;
+  gap:10px;
+ 
+}
+#text-area{
+  width: 900px;
+  height: 50px;
+}
+
+#like_cls{
+ 
+  text-align: left;
+  padding-top: 5px;
+}
+
+.checked {
+  color: orange;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}

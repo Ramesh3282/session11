@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="survey"> 
+    <div class="namelabel">
+        <label><b>Name</b><span class="required">*</span></label><br>
+        <div class="namebox">
+        <input type="text" name="fname">
+        <input type="text"  name="lname">
+        </div>
+        <div class="label-cls">
+            <span>First</span>
+            <span>Last</span>
+        </div>
+    </div>
+    <div class="email">   
+        <label><b>Email</b><span class="required">*</span></label><br>
+        <input type="email" name="email" id="email">
+    </div> 
+    <div class="experince">
+        <h3>Your Experince <span class="required">*</span></h3>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked" ></span>
+        <span class="fa fa-star checked"></span>
+    </div>
+    
+        <div class="ratehead">overall. How would you rate your experince with us ?</div>
+        <div  class="satisfy">
+            <div><b>How statisfied are you with</b> <span class="required">*</span></div>
+            <table border="0">
+                <tr>
+                    <th></th>
+                    <th>very unsatisfied</th>
+                    <th>unsatisfied</th>
+                    <th>neutral</th>
+                    <th>satisfied</th>
+                    <th>very satisfied</th>
+                </tr>
+                <tr>
+                    <td class="td_cls">Purchase</td>
+                    <td><input type="radio" name="purchase"></td>
+                    <td><input type="radio" name="purchase"></td>
+                    <td><input type="radio" name="purchase"></td>
+                    <td><input type="radio" name="purchase"></td>
+                    <td><input type="radio" name="purchase"></td>
+                </tr>
+                <tr>
+                    <td class="td_cls">Service</td>
+                    <td><input type="radio" name="purchase"></td>
+                    <td><input type="radio" name="purchase"></td>
+                    <td><input type="radio" name="purchase"></td>
+                    <td><input type="radio" name="purchase"></td>
+                    <td><input type="radio" name="purchase"></td>
+                </tr>
+                <tr>
+                    <td class="td_cls">Company overall</td>
+                    <td><input type="radio" name="purchase"></td>
+                    <td><input type="radio" name="purchase"></td>
+                    <td><input type="radio" name="purchase"></td>
+                    <td><input type="radio" name="purchase"></td>
+                    <td><input type="radio" name="purchase"></td>
+                </tr>
+            
+           
+        <tr>
+        <div class="likely">
+            <td class="td_cls">
+            <div id="like_cls"><b>How likely are you to</b> <span class="required">* </span></div>&nbsp; &nbsp; </td>
+                   
+                    <td>very unlikely</td>
+                    <td>unlikely</td>
+                    <td>neutral</td>
+                    <td>likely</td>
+                    <td>very unlikely</td>
+                
+                </tr>
+                <tr>
+                    <td class="td_cls">Buy from us again</td>
+                    <td><input type="radio" name="buyfromagain"></td>
+                    <td><input type="radio" name="buyfromagain"></td>
+                    <td><input type="radio" name="buyfromagain"></td>
+                    <td><input type="radio" name="buyfromagain"></td>
+                    <td><input type="radio" name="buyfromagain"></td>
+                </tr>
+                <tr>
+                    <td class="td_cls">Recommanded our product to others</td>
+                    <td><input type="radio" name="productrmd"></td>
+                    <td><input type="radio" name="productrmd"></td>
+                    <td><input type="radio" name="productrmd"></td>
+                    <td><input type="radio" name="productrmd"></td>
+                    <td><input type="radio" name="productrmd"></td>
+                </tr>
+                <tr>
+                    <td class="td_cls">Recommanded our company to others</td>
+                    <td><input type="radio" name="companyrmd"></td>
+                    <td><input type="radio" name="companyrmd"></td>
+                    <td><input type="radio" name="companyrmd"></td>
+                    <td><input type="radio" name="companyrmd"></td>
+                    <td><input type="radio" name="companyrmd"></td>
+                </tr>
+            </table>
+           
+      
+
+    <div class="comments">
+        <b>Additional comments or suggestions </b><br>
+            
+            <textarea id="text-area"></textarea>
+   </div>  
+    </div>  
+   
+     <div>
+        <input type="submit" value="submit">    
+    </div>
+</div>
+</body>
+</html>
