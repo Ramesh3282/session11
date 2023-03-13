@@ -2,13 +2,40 @@
 .required {
     color: red;
   }
+
+ 
   .survey{
-    display: grid;
-    gap:0.5rem;
-   justify-content: center;
+   display: flex;
+   justify-content: start;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   gap:1rem;
    font-size: small;
-   
+   border: 2px solid whitesmoke;
+   width: 550px;
+   height: 650px;
+   margin: 0 auto;
+   padding:12px;
+  
    }
+ 
+   .namelabel {
+   
+    margin-right: 12em;
+    
+  }
+
+   #email{
+    width: 350px;
+   }
+   #text-area{
+    width: 550px;
+    height: 60px;
+   
+  }
+  #submit{
+    padding:7px;
+  }
 th{
     font-weight: normal;
     align-items: center;
@@ -16,46 +43,15 @@ th{
 
 td{
   text-align: center;
-  word-wrap:break-word;
-  width: 130px;
-  padding: 2px;
-  margin: 1px;
-  
+ 
+}
+#like_cls{
+  text-align: left;
+  padding-top: 5px;
 }
 .td_cls{
   text-align: left;
-}
-
-  
-.namebox{
-  display: flex;
-  gap: 2%;
-}
-.label-cls{
-  display: flex;
-  gap: 18.2%;
-  
-  
-}
-#email{
-  width: 350px;
-  
-}
-
-.satisfy{
-  display: grid;
-  gap:10px;
- 
-}
-#text-area{
-  width: 900px;
-  height: 50px;
-}
-
-#like_cls{
- 
-  text-align: left;
-  padding-top: 5px;
+  padding:5px ;
 }
 
 .checked {

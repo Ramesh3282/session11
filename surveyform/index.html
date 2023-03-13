@@ -12,34 +12,36 @@
 </head>
 <body>
     <div class="survey"> 
-    <div class="namelabel">
-        <label><b>Name</b><span class="required">*</span></label><br>
-        <div class="namebox">
-        <input type="text" name="fname">
-        <input type="text"  name="lname">
-        </div>
-        <div class="label-cls">
-            <span>First</span>
-            <span>Last</span>
-        </div>
-    </div>
-    <div class="email">   
-        <label><b>Email</b><span class="required">*</span></label><br>
-        <input type="email" name="email" id="email">
-    </div> 
-    <div class="experince">
-        <h3>Your Experince <span class="required">*</span></h3>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked" ></span>
-        <span class="fa fa-star checked"></span>
-    </div>
+        <div>
+            <div class="name">
+                <span><b>Name</b><span class="required">*</span></span><br>
+                    <input type="text" name="fname" >&nbsp; &nbsp;
+                    <input type="text"  name="lname"><br>
+                    <span class="namelabel">First</span>
+                    <span class="namelabel">last</span>
+              
+               
+            </div>
+        
+            <br>
+            <div class="email">   
+                <span><b>Email</b><span class="required">*</span></span><br>
+                <input type="email" name="email" id="email">
+            </div> 
+            <div class="experince">
+                <h3>Your Experince <span class="required">*</span></h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked" ></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+        </div>    
     
         <div class="ratehead">overall. How would you rate your experince with us ?</div>
         <div  class="satisfy">
             <div><b>How statisfied are you with</b> <span class="required">*</span></div>
-            <table border="0">
+            <table>
                 <tr>
                     <th></th>
                     <th>very unsatisfied</th>
@@ -73,12 +75,13 @@
                     <td><input type="radio" name="purchase"></td>
                 </tr>
             
-           
-        <tr>
-        <div class="likely">
-            <td class="td_cls">
-            <div id="like_cls"><b>How likely are you to</b> <span class="required">* </span></div>&nbsp; &nbsp; </td>
-                   
+        
+                <tr>
+                    
+                    <td>
+                        <div id="like_cls"><b>How likely are you to</b> <span class="required">* </span></div>&nbsp; &nbsp; 
+                    </td>
+                        
                     <td>very unlikely</td>
                     <td>unlikely</td>
                     <td>neutral</td>
@@ -103,7 +106,7 @@
                     <td><input type="radio" name="productrmd"></td>
                 </tr>
                 <tr>
-                    <td class="td_cls">Recommanded our company to others</td>
+                    <td class="td_cls">Recommanded our company to others </td>
                     <td><input type="radio" name="companyrmd"></td>
                     <td><input type="radio" name="companyrmd"></td>
                     <td><input type="radio" name="companyrmd"></td>
@@ -111,18 +114,18 @@
                     <td><input type="radio" name="companyrmd"></td>
                 </tr>
             </table>
+        </div>    
            
       
 
-    <div class="comments">
-        <b>Additional comments or suggestions </b><br>
-            
+        <div class="comments">
+            <b>Additional comments or suggestions </b><br>
             <textarea id="text-area"></textarea>
-   </div>  
-    </div>  
+        </div>  
+      
    
      <div>
-        <input type="submit" value="submit">    
+        <input type="submit" value="submit" id="submit">    
     </div>
 </div>
 </body>
